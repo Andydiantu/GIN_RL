@@ -36,14 +36,6 @@ ollama serve
 ollama pull gemma3:4b
 ```
 
-The model tag passed to Gin must match a tag shown by:
-
-```bash
-ollama list
-```
-
-The implementation accepts any locally installed Ollama model. Models used during development include `gemma3:4b`, `gemma4:e2b`, and `qwen3.5:9b`.
-
 ## Setting Up a Benchmark
 
 The paper evaluates five Java projects:
